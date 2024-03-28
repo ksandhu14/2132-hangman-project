@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamaljit Sandhu - COMP2132</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="scripts/comp2132-FP-hangman.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+        </header>
+        <main>
+            <section class="center">
+                <h2>Final Project - Game Hangman</h2>
+            </section>
+            <div class="inner-container width-700">
+                <div class="main-display"></div>
+                <div class="vase">
+                    <!-- Empty Vase Image -->
+                    <img id="potImage" class="vase" src="/images/vase-with-cracks0.png" alt="Empty Vase">
+                </div>
+                <div id="hangman"></div>
+                <div id="word" class="word-display"></div>
+                <div id="hint"></div>
+                <div class="input-container hidden">
+                    <div class="hint">Hint:</div>
+                    <div>
+                        <input type="text" id="guessInput">
+                        <button onclick="guessLetter()">Guess</button>
+                    </div>
+                </div>
+                <div id="keyboard-container">
+                    <!-- Keyboard Letters will be dynamically generated here -->
+                </div>
+                <div id="message"></div>
+                <button onclick="playAgain()" class="play-again">Play Again</button>
+
+                <!-- Game Explanation -->
+                <div class="game-explanation">
+                    How to play: Guess letters to reveal the word. If you guess incorrectly, a crack will appear on the flower pot. Guess all letters correctly before the flower pot cracks completely!
+                </div>
+                
+            </div>
+           
+        </main>
+        <footer><div class="center"><p>&copy; Kamaljit Sandhu</p></div></footer>
+        
+    </div>
+</body>
+</html>
