@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Hahmlet
+- Font Author: Copyright 2020 The Hahmlet Project Authors (https://github.com/hyper-type/hahmlet)
+- Font Source: http://fonts.gstatic.com/s/hahmlet/v13/BngXUXpCQ3nKpIo0TfPyfCdXfaeU4RhKONjobsO-aVxn.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
